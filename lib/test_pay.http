@@ -1,0 +1,31 @@
+###
+
+POST   http://spacex038i.pythonanywhere.com/api/v1/user/ HTTP/1.1
+content-type: application/json
+Authorization: token cc88fd8a37ea99363924bc32474073f9109f68f0
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsI
+
+{
+  "username": "Plavr5",
+  "email": "plavr5@mail.ru",
+  "last_name": "Pavel",
+  "first_name": "Petrov",
+  "password": "HkhG7thb"
+}
+
+###
+GET    http://spacex038i.pythonanywhere.com/api/v1/user/ HTTP/1.1
+content-type: application/json
+Authorization: token cc88fd8a37ea99363924bc32474073f9109f68f0
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsI
+
+###
+POST    http://spacex038i.pythonanywhere.com/api/v1/api-token-auth/ HTTP/1.1
+content-type: application/json
+# Authorization: token cc88fd8a37ea99363924bc32474073f9109f68f0
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsI
+
+{
+  "username": "goga",
+  "password": "HkhG7thb"
+}
